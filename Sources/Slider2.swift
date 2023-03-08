@@ -370,9 +370,9 @@ open class Slider2: UIControl {
         trackView2.translatesAutoresizingMaskIntoConstraints = false
         trackView3.translatesAutoresizingMaskIntoConstraints = false
         
-        trackView1.backgroundColor = .init(red: 1, green: 0.172, blue: 0.49, alpha: 1)
-        trackView2.backgroundColor = .init(red: 0, green: 0.57, blue: 1, alpha: 1)
-        trackView3.backgroundColor = .init(red: 0.914, green: 0.933, blue: 0.988, alpha: 1)
+        trackView1.backgroundColor = .init(red: (229/255), green: (229/255), blue: (229/255), alpha: 1)
+        trackView2.backgroundColor = .init(red: (244/255), green: (189/255), blue: (75/255), alpha: 1)
+        trackView3.backgroundColor = .init(red: (229/255), green: (229/255), blue: (229/255), alpha: 1)
         
         thumbViewCenterXConstraint = NSLayoutConstraint(
             item: thumbView,
